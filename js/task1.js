@@ -93,3 +93,13 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active_menu";
     });
 }
+
+var header1 = document.getElementById("fiel");
+var a = header.getElementsByClassName("a-black");
+for (var i = 0; i < a.length; i++) {
+    a[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active_filter");
+        current[0].className = current[0].className.replace(" active_filter", "");
+        this.className += " active_filter";
+    });
+}

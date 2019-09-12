@@ -216,7 +216,7 @@ margin-left: 100px;
     background-size: cover;
 }
 .title-bg{
-    color: white;padding-top: 70px;font-size: 30px;
+    color: white;font-size: 30px;
 }
 .carousel{
     width: 80%;margin-top: 40px;text-align: center
@@ -308,4 +308,7 @@ margin-left: 100px;
     padding-bottom: 20px;
 }
 
+.active {
+    color: #ff24d6;
+}
 
