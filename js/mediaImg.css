@@ -122,6 +122,9 @@
     div.saga-img{
         text-align: center;
     }
+    #block1{
+        margin-left: 70px;
+    }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px){
     #info
