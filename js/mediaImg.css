@@ -200,6 +200,13 @@
         display:block;
         margin:0 auto;
     }
+    .menu-nav:hover:after{
+        content: "";
+        border-bottom:3px solid #0092ff;
+        width:60%;
+        display:block;
+        margin:0 auto;
+    }
 }
 /*@media screen and   (min-width: 1000px){
     img.item3 {

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92791531-22ed-4336-83be-64f9277d127e" name="Default Changelist" comment="" />
+    <list default="true" id="92791531-22ed-4336-83be-64f9277d127e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mediaImg.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/mediaImg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task1.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/task1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/task1.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1QbJqyrjDhUYw4e8EQNMBGd7X48" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,11 +70,22 @@
       <workItem from="1568077131163" duration="29987000" />
       <workItem from="1568163926775" duration="24410000" />
       <workItem from="1568250556927" duration="1111000" />
-      <workItem from="1568252149175" duration="12852000" />
+      <workItem from="1568252149175" duration="16399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

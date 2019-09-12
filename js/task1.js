@@ -17,6 +17,43 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+
+//read more
+function btn_read_more() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("btn_read_more");
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = ' <img src="images/cap.png">' +" READ MORE" ;
+        document.getElementById("btn_read_more").className = "btn border border-dark btn-read-more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = ' <img src="images/cap.png">' +" READ LESS" ;
+        document.getElementById("btn_read_more").className = "btn border border-dark btn-read-more";
+        moreText.style.display = "inline";
+    }
+}
+
+function btn_read_more1() {
+    var dots1 = document.getElementById("dots1");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("btn_read_more1");
+    if (dots1.style.display === "none") {
+        dots1.style.display = "inline";
+        btnText.innerHTML = ' <img src="images/cap.png">' +" READ MORE" ;
+        document.getElementById("btn_read_more").className = "btn border border-dark btn-read-more";
+        moreText.style.display = "none";
+    } else {
+        dots1.style.display = "none";
+        btnText.innerHTML = ' <img src="images/cap.png">' +" READ LESS" ;
+        document.getElementById("btn_read_more").className = "btn border border-dark btn-read-more";
+        moreText.style.display = "inline";
+    }
+}
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 for (var i=1;i<=24;i++)

@@ -8,13 +8,7 @@
     display:block;
     margin:0 auto;
 }*/
-.menu-nav:hover:after{
-    content: "";
-    border-bottom:3px solid #0092ff;
-    width:60%;
-    display:block;
-    margin:0 auto;
-}
+
 .down_icon{
     border: 1px solid white;
     width: 50px;
@@ -56,7 +50,7 @@ corresponding value from the list below*/
 }
 .btn-nav
 {
-    background: white;text-align: right;
+    background: #797777;text-align: right;
 }
 .text-center{
     text-align: center;
@@ -163,8 +157,8 @@ html {
     padding: 20px;
 }
 
-
-
+#more {display: none;}
+#more1 {display: none;}
 .text-title{
     font-size: 25px
 }
