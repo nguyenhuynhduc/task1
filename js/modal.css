@@ -2,7 +2,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -29,20 +29,24 @@
     }
 }
 
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1367px) {
     .modal-content {
-
-        margin-top: auto;
         width: 80%;
         height: 80%;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
     .modal-content {
-        margin-top: auto;
+        margin: auto;
         width: 80%;
-        height: 30%;
+        height: 50%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .modal-content {
+        margin: auto;
+        width: 80%;
+        height: 40%;
     }
 }
 
