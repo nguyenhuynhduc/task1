@@ -39,31 +39,31 @@
 @media screen and (max-width: 699px) {
     img.item3 {
         width: 100%;
-        height:350px;
+       height: 100%;
     }
 }
 @media screen and (max-width: 1023px) and  (min-width: 700px){
     img.item3 {
         width: 100%;
-        height:163.5px;
+        height: 100%;
     }
 }
 @media screen and (min-width: 1367px){
     img.item3 {
         width: 100%;
-        height:267.27px;
+        height: 100%;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1366px){
     img.item3 {
         width: 100%;
-        height: 240.7px;
+        height: 100%;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px){
     img.item3 {
         width: 100%;
-        height: 172.3px;
+        height: 100%;
     }
 }
 /*Saga*/
@@ -227,3 +227,28 @@
         height:200px;
     }
 }*/
+
+@media screen and (max-width: 1023px) {
+    div.widthIMG{
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        padding: 10px;
+    }
+}
+@media screen  and  (min-width: 1024px){
+    div.widthIMG{
+        margin: auto;
+        width: 50%;
+        height: 350px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 1366px){
+    div.widthIMG{
+        margin: auto;
+        width: 25%;
+        height: 230px;
+        padding: 10px;
+    }
+}
